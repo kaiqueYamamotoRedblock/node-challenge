@@ -1,0 +1,22 @@
+{
+  "name": "node-challenge",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/kaiqueYamamotoRedblock/node-challenge.git",
+  "author": "Kaique Yamamoto | RedBlock Solution <kaique@redblock.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "start:prod": "node ./src/app.js",
+    "start:dev": "nodemon ./src/app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "nodemon": "^2.0.15"
+  }
+}
