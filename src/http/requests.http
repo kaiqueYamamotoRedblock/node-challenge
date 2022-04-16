@@ -1,1 +1,13 @@
 GET http://localhost:3000/
+
+
+#################################
+# Register a new user
+#################################
+POST https://localhost:3000/api/users/register
+Content-Type: application/json
+
+{
+  "username": "test",
+  "password": "test"
+}
